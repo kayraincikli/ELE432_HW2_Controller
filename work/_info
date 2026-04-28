@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/kbincikli/Documents/fpga_hw_2
+T_opt
+!i145 1
+!i144 0
+!s110 1777410176
+VM49[Tezm08i]@Ozfm66Uz0
+04 9 4 work testbench fast 0
+=1-525400717301-69f1207f-db400-170d
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U5 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2025.2;82
+valudec
+Z3 2controller.sv
+Z4 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z5 !s110 1777410175
+!i10b 1
+!s100 2^:FHfCUf56H8JJFLd9Ma0
+IFh<JYIV^ZgJhjQTEcGee?1
+S1
+R1
+Z6 w1777410171
+Z7 8controller.sv
+Z8 Fcontroller.sv
+!i122 0
+L0 272 50
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z11 !s108 1777410175.000000
+Z12 !s107 controller.sv|
+Z13 !s90 -reportprogress|300|-sv|controller.sv|
+!i113 0
+Z14 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcontroller
+R3
+R4
+R5
+!i10b 1
+!s100 13c8P4D;lUWJjYH;jcNCU0
+I3CFjdHeTh>_S?>zIY96jQ3
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 6 53
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vinstrdec
+R3
+R4
+R5
+!i10b 1
+!s100 7Bf0e7;k0SUz6LRS^Hm^o2
+IiQTa1Y4To7d1K1WR>C>Md2
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 329 33
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vmainfsm
+R3
+R4
+R5
+!i10b 1
+!s100 ;hKSb=EDH3klW8^X6<3l41
+Ij7A=F:a3<JKC4_Ya8i><T2
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 65 199
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vtestbench
+2controller_testbench.sv
+R4
+R5
+!i10b 1
+!s100 8<V;FofKTfbVa_KFoU?fP3
+IE4i0OZfN6=ekNLJQUMAIH1
+S1
+R1
+w1777409164
+8controller_testbench.sv
+Fcontroller_testbench.sv
+!i122 1
+L0 6 80
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 controller_testbench.sv|
+!s90 -reportprogress|300|-sv|controller_testbench.sv|
+!i113 0
+R14
+R2

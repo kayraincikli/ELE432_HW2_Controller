@@ -1,0 +1,63 @@
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 linux_x86_64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do run.do
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work work 
+# ** Note: (vmap-220) 'modelsim.ini' is used as the ini file.
+# Modifying modelsim.ini
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:02:55 on Apr 29,2026
+# vlog -reportprogress 300 -sv controller.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module controller
+# -- Compiling module mainfsm
+# -- Compiling module aludec
+# -- Compiling module instrdec
+# 
+# Top level modules:
+# 	controller
+# End time: 00:02:55 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:02:55 on Apr 29,2026
+# vlog -reportprogress 300 -sv controller_testbench.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:02:55 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 00:02:55 on Apr 29,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "mainfsm(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.controller(fast)
+# Loading work.mainfsm(fast)
+# Loading work.aludec(fast)
+# Loading work.instrdec(fast)
+#         40 tests completed with          0 errors
+# ** Note: $stop    : controller_testbench.sv(81)
+#    Time: 415 ns  Iteration: 1  Instance: /testbench
+# Break in Module testbench at controller_testbench.sv line 81
+# A time value could not be extracted from the current line
+# End time: 00:16:23 on Apr 29,2026, Elapsed time: 0:13:28
+# Errors: 0, Warnings: 1
