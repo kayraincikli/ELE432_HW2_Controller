@@ -1,4 +1,3 @@
-````markdown
 # ELE432 HW2 - Multicycle RISC-V Controller
 
 ## What Was Done
@@ -7,30 +6,26 @@ A hierarchical SystemVerilog controller was implemented for the HW2 multicycle R
 
 Implemented modules:
 
-- `controller`
-- `mainfsm`
-- `aludec`
-- `instrdec`
+* `controller`
+* `mainfsm`
+* `aludec`
+* `instrdec`
 
 The controller was tested using the provided testbench and test vector file.
 
 ## Files
 
-```text
-controller.sv
-controller_testbench.sv
-controller.tv
-run_controller.do
-screenshots/
-
+* `controller.sv`
+* `controller_testbench.sv`
+* `controller.tv`
+* `run_controller.do`
+* `screenshots/`
 
 ## How to Simulate
 
 Run the following command in ModelSim/Questa:
 
-```tcl
-do run_controller.do
-```
+`do run_controller.do`
 
 The script compiles the design, launches the testbench, adds the relevant signals to the waveform window, and runs the simulation.
 
@@ -38,9 +33,7 @@ The script compiles the design, launches the testbench, adds the relevant signal
 
 The simulation completed successfully.
 
-```text
-40 tests completed with 0 errors
-```
+`40 tests completed with 0 errors`
 
 Simulation screenshots are included in the `screenshots/` folder.
 
@@ -58,6 +51,3 @@ The controller was implemented and verified successfully. It passes all 40 provi
 ## Time Spent
 
 **3 hours**
-
-```
-```
