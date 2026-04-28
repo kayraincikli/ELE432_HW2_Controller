@@ -22,7 +22,7 @@ controller_testbench.sv
 controller.tv
 run_controller.do
 screenshots/
-````
+
 
 ## How to Simulate
 
